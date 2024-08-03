@@ -16,21 +16,18 @@ POST http://localhost/hsa-app/api/tasks
 ```
 
 <h3>Build system:</h3>
-Prerequisite: Java 17 jdk is installed.<br/>
-Run command:
+Prerequisite: Java 17 jdk is installed.
 ```
 ./gradlew clean build
 ```
 
 <h3>Run system:</h3>
-Prerequisite: Docker-compose is installed.<br/>
-Run command:
+Prerequisite: Docker-compose is installed.
 ```
 docker-compose up -d
 ```
 
 <h3>Apply load:</h3>
-Run script:
 ```
 ./test-load.sh
 ```
@@ -44,4 +41,3 @@ GET http://localhost:9200/taskindex/_count?q=user:dmytro
 ```
 
 <h3>System metrics:</h3>
-![System metrics](./images/system_metrics.png)
