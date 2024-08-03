@@ -16,14 +16,14 @@ POST http://localhost/hsa-app/api/tasks
 ```
 
 <h3>Build system:</h3>
-Prerequisite: Java 17 jdk is installed. <br/>
+Prerequisite: Java 17 jdk is installed.<br/>
 Run command:
 ```
-./gradle clean build
+./gradlew clean build
 ```
 
 <h3>Run system:</h3>
-Prerequisite: Docker-compose is installed. <br/>
+Prerequisite: Docker-compose is installed.<br/>
 Run command:
 ```
 docker-compose up -d
