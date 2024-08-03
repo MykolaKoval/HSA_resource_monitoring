@@ -45,4 +45,4 @@ GET http://localhost:9200/taskindex/_count?q=user:dmytro
 ```
 
 <h3>System metrics:</h3>
-![System metrics](./images/system_metrics.png)
+<img src="./images/system_metrics.png" width="600">
