@@ -34,8 +34,7 @@ docker-compose up -d
 ```
 ./test-load.sh
 ```
-Script execution result:
-![Load result](./images/load_script_result.png)
+<img src="./images/load_script_result.png" width="600">
 
 <h3>Validate data:</h3>
 Check count for created documents in Elastic (custom index=taskindex):
