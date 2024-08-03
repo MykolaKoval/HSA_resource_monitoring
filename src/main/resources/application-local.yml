@@ -1,0 +1,22 @@
+management:
+  endpoint:
+    health:
+      show-details: "ALWAYS"
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: health, metrics
+
+spring:
+  elasticsearch:
+    uris: http://localhost:9200
+    username: elastic
+    password: secret
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: app
+      password: secret
+      database: test_db
