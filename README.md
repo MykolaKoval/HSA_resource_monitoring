@@ -1,4 +1,4 @@
-# HSA resource monitoring systems homwework
+# HSA resource monitoring systems homework
 TIG monitoring stack setup:
 - mongodb
 - elasticsearch
@@ -17,17 +17,20 @@ POST http://localhost/hsa-app/api/tasks
 
 <h3>Build system:</h3>
 Prerequisite: Java 17 jdk is installed.
+
 ```
 ./gradlew clean build
 ```
 
 <h3>Run system:</h3>
 Prerequisite: Docker-compose is installed.
+
 ```
 docker-compose up -d
 ```
 
 <h3>Apply load:</h3>
+
 ```
 ./test-load.sh
 ```
@@ -36,6 +39,7 @@ Script execution result:
 
 <h3>Validate data:</h3>
 Check count for created documents in Elastic (custom index=taskindex):
+
 ```
 GET http://localhost:9200/taskindex/_count?q=user:dmytro
 ```
